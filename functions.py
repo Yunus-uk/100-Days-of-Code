@@ -21,13 +21,11 @@ def write_todos(todos_arg, filepath=FILEPATH):
         file.writelines(todos_arg)
 
 
-
-print(__name__)
+# print(__name__)
 
 if __name__ == "__main__":
     print("Hello")
     print(get_todos())
-
 
 FREEZING_POINT = 0
 BOILING_POINT = 100
@@ -44,5 +42,3 @@ def water_state(temp):
 
 def count(phrase):
     return phrase.count('.')
-
-

@@ -2,13 +2,14 @@
 # file.writelines(todos)
 # file.close()
 
-#from functions import get_todos, write_todos
-import functions #this is called modules imports from file
+
+
+# from functions import get_todos, write_todos
+import functions  # this is called modules imports from file
 import time
 
 now = time.strftime("%d %b %Y, %H:%M:%S")
 print("It is", now)
-
 
 while True:
     # Get user input and strip space chars from it
@@ -17,7 +18,6 @@ while True:
 
     if user_action.startswith("add"):
         todo = user_action[4:]
-        
 
         todos = functions.get_todos()
 
