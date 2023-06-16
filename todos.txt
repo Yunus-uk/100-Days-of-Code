@@ -1,8 +1,21 @@
-add a new player
-call company
-play 
-make soup
+add a new soup
 make pizza
-cleAR the code
+clear the code
 Python Master 
 hi
+
+wash car
+play game
+play game
+{
+}play
+make pizza
+
+call company
+
+call company
+add a new 
+add a new 
+add a new 
+clear the code
+
