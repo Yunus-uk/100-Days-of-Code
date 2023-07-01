@@ -42,3 +42,8 @@ def water_state(temp):
 
 def count(phrase):
     return phrase.count('.')
+
+
+def convert(feet, inches):
+    meters = (feet * 0.3048) + (inches * 0.0254)
+    return meters
